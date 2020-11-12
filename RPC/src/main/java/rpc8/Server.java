@@ -11,6 +11,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
+ * 服务端增加的点是，服务端在给客户端返回数据的时候，采用hessian进行数据序列化
+ *
  * @author: guangxush
  * @create: 2020/05/03
  */
@@ -50,7 +52,7 @@ public class Server {
         Method method = clazz.getMethod(methodName, parameterTypes);
         Object o = method.invoke(clazz.newInstance(), args);
 
-        // 直接返回一个对象, 这里进行序列化
+        // 直接返回一个对象, 这里进行序列化(将对象转换成字节数组)
         oos.writeObject(HessianSDK.serialize(o));
         oos.flush();
     }

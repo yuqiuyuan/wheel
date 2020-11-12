@@ -8,8 +8,11 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 
 /**
- * @author: guangxush
- * @create: 2020/05/03
+ * Hessian sdk
+ *
+ *
+ * @author guangxush
+ * @since 2020/05/03
  */
 public class HessianSDK {
     public static void main(String[] args) throws Exception {

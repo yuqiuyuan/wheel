@@ -11,8 +11,9 @@ import java.net.Socket;
 
 /**
  * 放在客户度端的一个方法
- * @author: guangxush
- * @create: 2020/05/03
+ * 与7的不同之处在于，8使用hession进行序列化与反序列化，而7采用的jdk原生包进行序列化与反序列化
+ * @author guangxush
+ * @since 2020/05/03
  */
 public class Stub {
 
