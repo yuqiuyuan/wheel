@@ -3,8 +3,10 @@ package three;
 import org.springframework.aop.framework.ProxyFactory;
 
 /**
- * @author: guangxush
- * @create: 2020/06/06
+ * 可以看到，otherService.runOther方法被拦截了
+ *
+ * @author guangxush
+ * @since 2020/06/06
  */
 public class TestMethodInterceptor {
     public static void main(String[] args) {

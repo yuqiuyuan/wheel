@@ -5,9 +5,10 @@ import org.aopalliance.intercept.MethodInvocation;
 
 /**
  * 借助Spring拦截器，理解反射
+ * 写一个服务拦截器，对不是run的方法的进行拦截
  *
- * @author: guangxush
- * @create: 2020/06/06
+ * @author guangxush
+ * @since 2020/06/06
  */
 public class ServiceInterceptor implements MethodInterceptor {
 
