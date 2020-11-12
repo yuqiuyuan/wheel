@@ -4,7 +4,8 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * 基本的代理类
+ * 基本的代理类，继承InvocationHandler接口，实现invoke方法
+ *
  * @author: guangxush
  * @create: 2020/06/07
  */
