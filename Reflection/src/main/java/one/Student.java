@@ -9,6 +9,6 @@ package one;
 public class Student extends Parents {
     @Override
     public void function() {
-        System.out.println("I'm children!");
+        System.out.println("I'm Student!");
     }
 }
