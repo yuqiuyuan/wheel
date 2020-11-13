@@ -2,11 +2,12 @@ package six;
 
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.beanutils.PropertyUtils;
+
 import java.lang.reflect.InvocationTargetException;
 
 /**
- * @author: guangxush
- * @create: 2020/06/14
+ * @author guangxush
+ * @since 2020/06/14
  */
 public class CopyUtil {
 

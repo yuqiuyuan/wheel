@@ -4,10 +4,11 @@ import java.util.Date;
 
 /**
  * 父类 外部类
- * @author: guangxush
- * @create: 2020/06/14
+ *
+ * @author guangxush
+ * @since 2020/06/14
  */
-public class OuterClass implements Parents{
+public class OuterClass implements Parents {
     private Long id;
     private String name;
     private Integer sex;

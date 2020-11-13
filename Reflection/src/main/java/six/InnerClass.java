@@ -6,20 +6,21 @@ import java.util.Date;
 /**
  * 子类，内部类
  *
- * @author: guangxush
- * @create: 2020/06/14
+ * @author guangxush
+ * @since 2020/06/14
  */
 public class InnerClass implements Parents {
 
     private Long id;
-    private String name;
+    private String name = "Linda";
     private Integer sex;
     private Double age;
     private Date birthDay;
     // 新增
     private String address;
 
-    public InnerClass(){}
+    public InnerClass() {
+    }
 
     public Long getId() {
         return id;

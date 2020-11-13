@@ -6,14 +6,14 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * @author: guangxush
- * @create: 2020/06/07
+ * @author  guangxush
+ * @since 2020/06/07
  */
 public class GetObject {
 
     /**
      * 反射+动态代理的方式调用Parents里面的方法
-     * @return
+     * @return object
      */
     public static Object runObject(final Parents post, String methodName, Object[] parameters){
         try {

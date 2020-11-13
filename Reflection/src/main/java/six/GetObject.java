@@ -5,8 +5,8 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- * @author: guangxush
- * @create: 2020/06/07
+ * @author  guangxush
+ * @since  2020/06/07
  */
 public class GetObject {
 
