@@ -14,7 +14,7 @@ public class TestHelloService {
     private static final HelloService helloService = new HelloServiceImpl();
 
     public static void main(String[] args) {
-        test1();
+        test2();
     }
 
     public static void test1(){

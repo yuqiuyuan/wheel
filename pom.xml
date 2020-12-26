@@ -26,6 +26,8 @@
         <module>SpringCore</module>
         <module>HappyParse</module>
         <module>PlayCenter</module>
+        <module>nioSocket</module>
+        <module>hashMapDemo</module>
     </modules>
 
 

@@ -17,9 +17,9 @@ import java.net.Socket;
 public class Server {
     private static boolean running = true;
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         ServerSocket socket = new ServerSocket(8080);
-        while(running){
+        while (running) {
             Socket s = socket.accept();
             process(s);
             s.close();
@@ -27,7 +27,7 @@ public class Server {
         socket.close();
     }
 
-    private static void process(Socket s) throws Exception{
+    private static void process(Socket s) throws Exception {
         InputStream in = s.getInputStream();
         OutputStream out = s.getOutputStream();
 
