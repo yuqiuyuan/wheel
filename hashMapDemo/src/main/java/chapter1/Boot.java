@@ -12,17 +12,17 @@ import java.util.Map;
  **/
 public class Boot {
     public static void main(String[] args) {
-        my();
+//        my();
         expectedTest();
     }
 
     static void my() {
         final long start = System.currentTimeMillis();
         HashMap<Integer, Integer> m = new HashMap<>();
-        for (int i = 0; i < 5000; i++) {
+        for (int i = 0; i < 50000; i++) {
             m.put(i, i);
         }
-        for (int i = 0; i < 5000; i++) {
+        for (int i = 0; i < 50000; i++) {
             System.out.println(m.get(i));
         }
         final long end = System.currentTimeMillis();
@@ -32,12 +32,12 @@ public class Boot {
     static void expectedTest() {
         final long start = System.currentTimeMillis();
         Map<Integer, Integer> m = new HashMap<>();
-        for (int i = 0; i < 5000; i++) {
+        for (int i = 0; i < 500000000; i++) {
             m.put(i, i);
         }
-        for (int i = 0; i < 5000; i++) {
-            System.out.println(m.get(i));
-        }
+//        for (int i = 0; i < 5000; i++) {
+//            System.out.println(m.get(i));
+//        }
         final long end = System.currentTimeMillis();
         System.out.println("耗时：" + (end - start) + "ms");
     }
